@@ -1,0 +1,37 @@
+{
+  "name": "PWA con Notificaciones Push",
+  "short_name": "PWA Option",
+  "description": "Una PWA simple con notificaciones push para option",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "./images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./images/screenshot-378x756-1.png",
+      "type": "image/jpg",
+      "sizes": "378x756",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./images/screenshot-1024x665-1.png",
+      "type": "image/jpg",
+      "sizes": "1024x665",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["blog", "portafolio", "education"]
+}

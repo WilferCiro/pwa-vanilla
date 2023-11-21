@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#317EFB" />
+    <title>PWA con Notificaciones Push for option</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" type="text/css" href="./css/effect.css" />
+    <link rel="shortcut icon" href="./images/android-chrome-192x192.png" type="image/png">
+  </head>
+  <body>
+    <main class="main flow">
+      <img class="main__image" src="./images/android-chrome-192x192.png" />
+      <h1 class="main__heading">PWA webpage for Option</h1>
+      <div class="main__cards cards">
+        <div class="cards__inner">
+          <div class="cards__card card">
+            <h2 class="card__heading">first</h2>
+            <p class="card__price">PWA installable</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Add a manifest.json</li>
+              <li>Add metadata with installable information</li>
+            </ul>
+            <a href="#basic" class="card__cta cta">A button 🤯</a>
+          </div>
+
+          <div class="cards__card card">
+            <h2 class="card__heading">second</h2>
+            <p class="card__price">Add main js</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Activate service-worker</li>
+              <li>Request notifications permissions</li>
+              <li>Subscribe to web push server</li>
+            </ul>
+            <a href="#pro" class="card__cta cta">🎅🏼</a>
+          </div>
+
+          <div class="cards__card card">
+            <h2 class="card__heading">third</h2>
+            <p class="card__price">Add service worker</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Add events for work offline</li>
+              <li>Add cache for images, css and js</li>
+              <li>Add more <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank">events</a></li>
+              <li>Exclusive content and early access to new features</li>
+            </ul>
+            <a href="#ultimate" class="card__cta cta">🎄</a>
+          </div>
+        </div>
+
+        <div class="overlay cards__inner"></div>
+      </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/effect.js"></script>
+  </body>
+</html>

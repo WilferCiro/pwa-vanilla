@@ -35,7 +35,7 @@ function subscribeToPushNotifications() {
         ),
       })
       .then(function (subscription) {
-        fetch("http://socket-io-4ed0.onrender.com/push/subscribe", {
+        fetch("https://socket-io-4ed0.onrender.com/push/subscribe", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

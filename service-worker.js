@@ -19,14 +19,12 @@ self.addEventListener("install", function (event) {
 });
 
 self.addEventListener("activate", function (event) {
-  console.log("ACTIVATED");
   if (self.clients && clients.claim) {
     clients.claim();
   }
 });
 
 self.addEventListener('fetch', event => {
-  console.log('Solicitud fetch:', event.request.url);
   event.respondWith(
     caches.match(event.request)
       .then(response => response || fetch(event.request))

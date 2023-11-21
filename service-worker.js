@@ -35,7 +35,7 @@ self.addEventListener("push", function (event) {
   const options = {
     body: event.data.text(),
     icon: "/images/android-chrome-512x512.png",
-    badge: "/images/demos/android-chrome-192x192.png",
+    badge: "/images/badge-128x128.png",
   };
 
   event.waitUntil(

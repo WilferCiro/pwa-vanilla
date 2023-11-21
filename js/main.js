@@ -20,7 +20,7 @@ function sendNotification(title, body) {
     registration.showNotification(title, {
       body: body,
       icon: "/images/android-chrome-512x512.png",
-      badge: "/images/demos/android-chrome-192x192.png",
+      badge: "/images/badge-128x128.png",
     });
   });
 }

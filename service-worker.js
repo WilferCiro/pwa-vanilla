@@ -1,12 +1,12 @@
 const CACHE_NAME = 'my-cache-v2';
 const urlsToCache = [
   '/',
-  '../index.html',
-  '../css/effect.css',
-  '../js/main.js',
-  '../js/effect.js',
-  '../js/service-worker.js',
-  '../images/android-chrome-192x192.png',
+  '/index.html',
+  '/css/effect.css',
+  '/js/main.js',
+  '/js/effect.js',
+  '/service-worker.js',
+  '/images/android-chrome-192x192.png',
 ];
 
 self.addEventListener("install", function (event) {
